@@ -138,6 +138,8 @@ nav li a {
   transform: rotate(10deg);
   animation: rotation 0.4s infinite alternate backwards;
   animation-timing-function: ease-in-out;
+  float: left;
+  padding-right: 15px;
 }
 
 /* Polaroid images of me*/
@@ -260,11 +262,38 @@ form li input {
   and (max-device-width: 1024px)
   and (-webkit-min-device-pixel-ratio: 1) {
 
-    .large-article-header {
+    nav {
+      display: inline-block;
+      height: 40px;
+      width:100%;
+      background-color: white;
+      text-align: center;
+    }
+
+    nav li a {
+      font-size: 1em !important;
+    }
+
+    nav li {
+      display: inline-block;
+      margin: 0 !important;
+      padding: 0px 8px 0px 8px;
+    }
+
+    .hero-image {
       background: url("../media/jasminfaith.jpg") no-repeat top;
       background-size: cover;
-    background-repeat: no-repeat;
+      background-repeat: no-repeat;
       position: relative;
+      height: 12em;
+    }
+
+    h2#wave {
+      font-size: 48px !important;
+    }
+
+    .heyo {
+      margin-top: 64px;
     }
 
     h1 {
@@ -273,13 +302,23 @@ form li input {
       font-weight: 900 !important;
     }
 
-    .large-article-header {
-      height: 1rem;
+    .bio {
+      margin-bottom: 32px;
+    }
+
+    img.mobile-logo {
+      height: 104px;
+      display: block;
+      width: 100%;
+      margin-left: 0 auto;
       position: relative;
     }
 
-    .large-article-header h1 {
-      margin-right: -2%;
-      padding-right: 0px;
+    .footer {
+      /* background: linear-gradient(to right, #FF9A8B, #FF6A88, #FF99AC); */
+      background: url("../media/waves.svg") no-repeat;
+      background-size: 100%;
+      height: 60px;
+      margin-top: 48px;
     }
 }
