@@ -314,6 +314,19 @@ form li input {
       position: relative;
     }
 
+    #Atlassian {
+      display: block;
+      margin: 0 auto !important;
+      padding-top: 100px;
+      width: 280px;
+    }
+
+    #AtlassianBio {
+      width: 300px;
+      line-height: 28px;
+      font-size: 20px !important;
+    }
+
     .footer {
       /* background: linear-gradient(to right, #FF9A8B, #FF6A88, #FF99AC); */
       background: url("../media/waves.svg") no-repeat;
