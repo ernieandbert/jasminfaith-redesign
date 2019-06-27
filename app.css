@@ -215,14 +215,14 @@ form li input {
   padding: 0 !important;
 }
 
-#Atlassian {
+.Atlassian {
   display: block;
   margin: 0 auto !important;
   padding-top: 180px;
   width: 400px;
 }
 
-#AtlassianBio {
+.AtlassianBio {
   width: 680px;
   color: white !important;
   display: block;
@@ -314,14 +314,14 @@ form li input {
       position: relative;
     }
 
-    #Atlassian {
+    .Atlassian {
       display: block;
       margin: 0 auto !important;
       padding-top: 100px;
       width: 280px !important;
     }
 
-    #AtlassianBio {
+    .AtlassianBio {
       width: 300px !important;
       line-height: 28px;
       font-size: 20px !important;
