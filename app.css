@@ -318,11 +318,11 @@ form li input {
       display: block;
       margin: 0 auto !important;
       padding-top: 100px;
-      width: 280px;
+      width: 280px !important;
     }
 
     #AtlassianBio {
-      width: 300px;
+      width: 300px !important;
       line-height: 28px;
       font-size: 20px !important;
     }
