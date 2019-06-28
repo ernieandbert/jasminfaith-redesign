@@ -130,7 +130,7 @@ nav li a {
 }
 
 .heyo {
-  margin-top: 64px;
+  margin-top: 48px;
 }
 
 /* Wave animation */
@@ -288,12 +288,20 @@ form li input {
       height: 12em;
     }
 
+    .mobileBadDesign {
+      float: right;
+      font-size: 1.3em !important;
+      line-height: 1.2em !important;
+      padding-top: 8%;
+      padding-right: 2% !important;
+    }
+
     h2#wave {
       font-size: 48px !important;
     }
 
     .heyo {
-      margin-top: 64px;
+      margin-top: 48px;
     }
 
     h1 {
