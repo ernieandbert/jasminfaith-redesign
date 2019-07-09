@@ -231,6 +231,32 @@ form li input {
   padding-top: 24px;
 }
 
+#adventuresBG {
+  height: 100vh;
+  background-color: #FF9A8B;
+  width: 100vw;
+  margin: 0 !important;
+  padding: 0 !important;
+}
+
+.adventures {
+  width: 680px;
+  color: white !important;
+  display: block;
+  text-align: center !important;
+  margin: 0 auto;
+  padding-top: 48px;
+}
+
+h3 {
+  font-weight: 700 !important;
+  margin: 0 auto;
+}
+
+.adventures p {
+  color: white !important;
+}
+
 /* Tablet */
 @media only screen
   and (min-width: 768px)
