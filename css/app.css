@@ -70,6 +70,7 @@ nav li a {
   display: inline-block;
   float: right;
   height: 32px;
+  top: 54px;
   margin-right: 24px;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease;
